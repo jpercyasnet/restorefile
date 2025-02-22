@@ -1,0 +1,12 @@
+[package]
+name = "restorefiles01"
+version = "0.1.0"
+authors = ["jp <jpercyasnet@yahoo.com>"]
+edition = "2021"
+publish = false
+
+[dependencies]
+iced = "^0"
+rfd = { version = "^0", features = ["xdg-portal"] }
+chrono = "^0"
+eject = "^0"
